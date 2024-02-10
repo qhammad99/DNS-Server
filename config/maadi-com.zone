@@ -1,0 +1,20 @@
+$TTL 2d  
+
+$ORIGIN maadi.com.
+
+@                   IN  SOA     ns.maadi.com. admin.maadi.com. (
+                                2024021017 ; Serial
+                                3600       ; Refresh
+                                1800       ; Retry
+                                604800     ; Expire
+                                86400 )    ; Minimum TTL
+
+                    IN  ns      ns.maadi.com.
+
+
+ns                  IN  A       192.168.200.107
+
+; -- add dns records below
+
+web                 IN A        192.168.200.106
+;
